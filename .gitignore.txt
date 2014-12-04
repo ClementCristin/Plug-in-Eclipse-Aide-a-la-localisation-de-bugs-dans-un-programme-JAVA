@@ -8,6 +8,7 @@
 *.pydevproject
 .project
 workSpaceEclipse/.metadata
+.metadata
 bin/**
 tmp/**
 tmp/**/*
