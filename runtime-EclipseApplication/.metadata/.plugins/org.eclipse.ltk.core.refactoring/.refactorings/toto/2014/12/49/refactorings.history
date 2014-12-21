@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;toto.dog.java&apos; to &apos;TritypeV1.java&apos;&#x0D;&#x0A;- Original project: &apos;toto&apos;&#x0D;&#x0A;- Original element: &apos;toto.dog.java&apos;&#x0D;&#x0A;- Renamed element: &apos;toto.TritypeV1.java&apos;" description="Rename compilation unit &apos;dog.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;toto{dog.java" name="TritypeV1.java" references="false" stamp="1417689855628" version="1.0"/>
-</session>

@@ -27,18 +27,16 @@ public class SampleHandler extends AbstractHandler {
 	 */
 	public Object execute(ExecutionEvent event) throws ExecutionException {
 		IWorkbenchWindow window = HandlerUtil.getActiveWorkbenchWindowChecked(event);
-		MessageDialog.openInformation(
-				window.getShell(),
-				"First",
-				"Hello, Eclipse world wohoo");
+		
 		
 		Highlighting hl = new Highlighting();
 		hl.doJob();
 
 		MessageDialog.openInformation(
 				window.getShell(),
-				"First",
-				"Hello, Eclipse world toto");
+				"Line highlighting review",
+				"Line highlighter pointed out the erroneous lines");
+		
 		return null;
 	}
 }

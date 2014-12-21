@@ -1,4 +1,4 @@
-package toto;
+package tritype_V1;
 
 /* program for triangle classification 
  * returns 1 if (i,j,k) are the sides of any triangle
