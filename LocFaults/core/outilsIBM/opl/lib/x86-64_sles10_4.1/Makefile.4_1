@@ -1,0 +1,34 @@
+## ---------------------------------------------------------- -*- Makefile -*-
+##
+## File: lib/x86-64_sles10_4.1/Makefile.4_1
+##
+## ----------------------------------------------------------------------------
+## 
+## Licensed Materials - Property of IBM
+## 5724-Y29
+## (C) Copyright IBM Corporation 2010. All Rights Reserved.
+##
+## Note to U.S. Government Users Restricted Rights: 
+## Use, duplication or disclosure restricted by GSA ADP Schedule 
+## Contract with IBM Corp.
+##
+## ----------------------------------------------------------------------------
+##
+## ---------------------------------------------------------------------------
+
+SYSTEM=x86-64_sles10_4.1
+
+## ---------------------
+## System commands
+## ---------------------
+CCC=/usr/bin/gcc
+LD=$(CCC)
+RANLIB=@true
+AR=ar rv $@
+
+## ---------------------
+## Compiler flags
+## ---------------------
+CCompFlags=$(CPIC)
+SYSCCFLAGS=$(CCompFlags) -DIL_STD -Wno-deprecated
+
